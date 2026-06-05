@@ -154,16 +154,7 @@ def positional_encoding(
 # =====================================================
 # SIDEBAR
 # =====================================================
-if menu == "🏠 Home":
 
-    st.markdown("""
-    <div class="hero-section">
-        <h1>📑 AI Contract Intelligence</h1>
-        <p>
-            Transformer-Based Legal Contract Analysis Platform
-        </p>
-    </div>
-    """, unsafe_allow_html=True)
 
     # rest of your Home page code
 st.sidebar.title(
@@ -190,9 +181,14 @@ menu = st.sidebar.radio(
 
 if menu == "🏠 Home":
 
-    st.title(
-        "📑 AI Contract Intelligence System"
-    )
+    st.markdown("""
+    <div class="hero-section">
+        <h1>⚖️ AI Contract Intelligence System</h1>
+        <p>
+            NLP • Self-Attention • Positional Encoding • Explainable AI
+        </p>
+    </div>
+    """, unsafe_allow_html=True)
 
     st.markdown(
         """
