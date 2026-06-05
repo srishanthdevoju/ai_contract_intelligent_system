@@ -1,0 +1,185 @@
+/* =========================
+   GLOBAL
+========================= */
+
+.main {
+    background-color: #0e1117;
+    color: white;
+}
+
+.block-container {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* =========================
+   TITLE
+========================= */
+
+h1 {
+    color: #00d4ff !important;
+    font-weight: 800 !important;
+}
+
+h2, h3 {
+    color: #4cc9f0 !important;
+}
+
+/* =========================
+   SIDEBAR
+========================= */
+
+section[data-testid="stSidebar"] {
+    background: linear-gradient(
+        180deg,
+        #111827,
+        #0e1117
+    );
+}
+
+section[data-testid="stSidebar"] h1,
+section[data-testid="stSidebar"] h2,
+section[data-testid="stSidebar"] h3 {
+    color: white !important;
+}
+
+/* =========================
+   METRICS
+========================= */
+
+div[data-testid="metric-container"] {
+    background: #1a1f2e;
+    border: 1px solid #2a3248;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 0 12px rgba(0,212,255,0.15);
+}
+
+div[data-testid="metric-container"] label {
+    color: #b8c1ec !important;
+}
+
+div[data-testid="metric-container"] div {
+    color: #00d4ff !important;
+}
+
+/* =========================
+   BUTTONS
+========================= */
+
+.stButton > button {
+    width: 100%;
+    border-radius: 12px;
+    border: none;
+    background: linear-gradient(
+        90deg,
+        #00d4ff,
+        #4361ee
+    );
+    color: white;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.stButton > button:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 0px 15px #00d4ff;
+}
+
+/* =========================
+   DOWNLOAD BUTTON
+========================= */
+
+.stDownloadButton > button {
+    width: 100%;
+    background: linear-gradient(
+        90deg,
+        #06d6a0,
+        #118ab2
+    );
+    color: white;
+    border-radius: 12px;
+}
+
+/* =========================
+   TEXT AREA
+========================= */
+
+textarea {
+    border-radius: 12px !important;
+    border: 2px solid #00d4ff !important;
+}
+
+/* =========================
+   FILE UPLOADER
+========================= */
+
+[data-testid="stFileUploader"] {
+    border: 2px dashed #00d4ff;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: rgba(0,212,255,0.05);
+}
+
+/* =========================
+   DATAFRAMES
+========================= */
+
+[data-testid="stDataFrame"] {
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #2d3748;
+}
+
+/* =========================
+   ALERT BOXES
+========================= */
+
+.stSuccess {
+    border-radius: 12px;
+}
+
+.stWarning {
+    border-radius: 12px;
+}
+
+.stInfo {
+    border-radius: 12px;
+}
+
+/* =========================
+   DIVIDER
+========================= */
+
+hr {
+    border: 1px solid #2a3248;
+}
+
+/* =========================
+   SCROLLBAR
+========================= */
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0e1117;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #00d4ff;
+    border-radius: 10px;
+}
+
+/* =========================
+   CUSTOM CARD
+========================= */
+
+.custom-card {
+    background: #161b22;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #30363d;
+    box-shadow: 0px 0px 15px rgba(0,212,255,0.08);
+}
